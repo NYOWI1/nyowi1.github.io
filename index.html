@@ -4,14 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kaung Zaw Hein | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Kaung Zaw Hein</h1>
-    <p>Web Development and Computer Science Projects</p>
+    <main class="page">
+      <header class="hero">
+        <p class="eyebrow">Web Application Development</p>
+        <h1>Kaung Zaw Hein</h1>
+        <p class="intro">
+          A simple portfolio for my web development and computer science
+          projects.
+        </p>
+      </header>
 
-    <h2>Projects</h2>
+      <section class="projects" aria-labelledby="projects-title">
+        <h2 id="projects-title">Projects</h2>
 
-    <a href="/React_Component/"> Open React_Component </a>
-    <a href="/Form_Hundling/"> Open Form_Hundling </a>
+        <div class="project-list">
+          <a class="project-card" href="React_Component/">
+            <span class="project-label">React</span>
+            <strong>React Component</strong>
+            <span>Open the React component project.</span>
+          </a>
+
+          <a class="project-card" href="Form_Hundling/">
+            <span class="project-label">Form</span>
+            <strong>Form Handling</strong>
+            <span>Open the form handling project.</span>
+          </a>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
